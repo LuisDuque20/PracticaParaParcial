@@ -11,4 +11,3 @@ struct DatosHuesped
 };
 
 void pedirDatos(DatosHuesped &x);
-double calcularPrecio(DatosHuesped);
