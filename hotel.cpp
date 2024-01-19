@@ -12,10 +12,12 @@ Finalmente mostrar el detalle de la cantidad de noches, el precio por noche,
 el detalle del impuesto y el precio total a pagar por habitacion. */
 
 #include <iostream>
+#include "lib.hpp"
 using namespace std;
 
 int main(){
-
+    struct DatosHuesped huesped;
+    pedirDatos(huesped);
     
     return 0;
 }
